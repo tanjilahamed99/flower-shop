@@ -153,5 +153,36 @@ body
 /* payment */
 .payment
 {
+    width: 71%;
+    height: 200px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 150px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.delevary img
+{
+    margin: 10px auto;
+    display: flex;
+    width: 60px;
+}
+
+.delevary-tittle
+{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+/* sell */
+.sell
+{
     height: 500px;
 }
