@@ -98,7 +98,7 @@ span
 {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 24px;
     align-items: center;
     margin-top: 30px;
 }
@@ -107,7 +107,7 @@ span
 {
 
     display: block;
-    width: 300px;
+    width: 325px;
     height: 370px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
@@ -127,7 +127,7 @@ span
 {
     width: 249px;
     height: 279px;
-    margin: 91px 10px 10px 20px;
+    margin: 91px 10px 10px 30px;
 }
 
 #f2
@@ -141,7 +141,7 @@ span
 {
     width: 249px;
     height: 279px;
-    margin: 91px 10px 10px 20px;
+    margin: 91px 10px 10px 44px;
 }
 
 .box-tittle
@@ -158,7 +158,7 @@ span
 /* payment */
 .payment
 {
-    width: 71%;
+    width: 1025px;;
     height: 240px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
@@ -254,24 +254,24 @@ span
     margin-top: 40px;
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 20px;
 }
 
 .instagram-contant img
 {
-    width: 262px;
-    height: 306px;
+    width: 241px;
+    height: 286px;
 }
 
 /* input */
 .input
 {
-    margin: 120px auto;
+    margin: 100px auto;
     background-image: url('./Flower-Asset/Rectangle\ 9.png');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 71%;
-    height: 294px;
+    width: 1025px;
+    height: 316px;
 }
 
 .input-tittle
@@ -289,7 +289,7 @@ span
 
 form input
 {
-width: 45%;
+    width: 45%;
     border-radius: 7px;
     background: #FFF;
     color: rgba(39, 39, 39, 0.60);
@@ -300,6 +300,7 @@ width: 45%;
     padding: 10px;
     border: 0;
 }
+
 .input-btn
 {
     border-radius: 8px;
