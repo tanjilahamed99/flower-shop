@@ -247,5 +247,11 @@ span{
 .instagram-contant img{
     width: 262px;
     height: 306px;
-
+}
+/* input */
+.input{
+    margin-top: 128px;
+    background-image: url('./Flower-Asset/Rectangle\ 9.png');
+    width: 71%;
+    height: 300px;
 }
