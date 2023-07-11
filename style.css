@@ -11,9 +11,12 @@ body
 {
     font-family: 'Lato', sans-serif;
 }
-span{
+
+span
+{
     color: rgba(229, 84, 115, 1);
 }
+
 .section-tittle
 {
     text-align: center;
@@ -31,6 +34,7 @@ span{
     line-height: 25px;
     margin-top: 15px;
 }
+
 /* header */
 .head
 {
@@ -195,9 +199,12 @@ span{
     align-items: center;
     gap: 70px;
 }
-.sale-text{
+
+.sale-text
+{
     margin-left: -102px;
 }
+
 .sale-tittle
 {
     color: #272727;
@@ -228,30 +235,77 @@ span{
     display: flex;
     margin: auto;
 }
-.sale-img img{
+
+.sale-img img
+{
     width: 244px;
     height: 323px;
 }
+
 /* Instagram */
 .instagram
 {
     height: 500px;
     margin-top: 120px;
 }
-.instagram-contant{
+
+.instagram-contant
+{
     margin-top: 40px;
     display: flex;
     justify-content: center;
     gap: 24px;
 }
-.instagram-contant img{
+
+.instagram-contant img
+{
     width: 262px;
     height: 306px;
 }
+
 /* input */
-.input{
-    margin-top: 128px;
+.input
+{
+    margin: 120px auto;
     background-image: url('./Flower-Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 71%;
-    height: 300px;
+    height: 294px;
+}
+
+.input-tittle
+{
+    padding-top: 100px;
+}
+
+.input form
+{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 35px;
+}
+
+form input
+{
+width: 45%;
+    border-radius: 7px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+    border: 0;
+}
+.input-btn
+{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 18px;
+    border: 0;
+    color: white;
+    display: flex;
 }
