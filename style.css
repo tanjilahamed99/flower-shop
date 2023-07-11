@@ -14,7 +14,23 @@ body
 span{
     color: rgba(229, 84, 115, 1);
 }
+.section-tittle
+{
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
 
+.section-desc
+{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 15px;
+}
 /* header */
 .head
 {
@@ -72,24 +88,6 @@ span{
 .Featured
 {
     margin-top: 100px;
-}
-
-.Featured-tittle
-{
-    text-align: center;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-.Featured-desc
-{
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 16px;
-    line-height: 25px;
-    margin-top: 15px;
 }
 
 .Featured-container
@@ -235,7 +233,19 @@ span{
     height: 323px;
 }
 /* Instagram */
-.Instagram
+.instagram
 {
     height: 500px;
+    margin-top: 120px;
+}
+.instagram-contant{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.instagram-contant img{
+    width: 262px;
+    height: 306px;
+
 }
